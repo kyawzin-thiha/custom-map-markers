@@ -1,0 +1,41 @@
+{
+  "name": "custom-map-markers",
+  "version": "1.0.0",
+  "description": "This is a custom map, that allow users to create a marker at any location and save it to the local database.",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@types/node": "20.3.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "next": "13.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.1.6"
+  },
+  "author": "Kyaw Zin Thiha",
+  "keywords": [
+    "next",
+    "react",
+    "google-map",
+    "custom-map",
+    "indexdb"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^2.8.8"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
+}
