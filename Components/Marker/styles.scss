@@ -1,0 +1,60 @@
+.marker {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #FBFBFF;
+  border-radius: 10px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+
+
+  &:hover {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+  }
+
+  &--header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    .tools-bar {
+      width: auto;
+
+      button {
+        cursor: pointer;
+        width: auto;
+        height: auto;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #FFBABA;
+      }
+    }
+  }
+
+  &--description {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  &--address {
+    margin-top: 10px;
+
+    div {
+      margin-top: 5px;
+      display: flex;
+      align-items: center;
+
+      span {
+        margin-left: 10px;
+        font-size: 14px;
+      }
+    }
+  }
+}
