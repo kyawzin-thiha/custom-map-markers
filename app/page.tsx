@@ -17,7 +17,7 @@ export default function Home() {
 
     const [state, setState] = useState({
         isMenuOpen: false,
-        isMarkerOpen: true
+        isMarkerOpen: true,
     });
     const toggleMenu = (e: React.MouseEvent) => {
         e.preventDefault();
@@ -36,7 +36,7 @@ export default function Home() {
             <div className="map-container">
                 <GoogleMapComp isMarkerOpen={state.isMarkerOpen}/>
             </div>
-            <NewMarkerModal lat={1} lng={1}/>
+
         </main>
     );
 }
