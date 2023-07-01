@@ -5,7 +5,7 @@ import Delete from "@/assets/delete.svg";
 import "./styles.scss"
 
 type refProps = {
-    toggleMenu: (e: React.MouseEvent) => void
+    toggleMenu: (e: React.MouseEvent) => void,
 }
 export const MarkerContainer = ({toggleMenu} : refProps) => {
     return (
